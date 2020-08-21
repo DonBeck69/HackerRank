@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Dev\\hackerRank\\HackerRank\\HackerRank.csproj": {}
+    "D:\\Dev\\HackerRank\\HackerRank\\HackerRank.csproj": {}
   },
   "projects": {
-    "D:\\Dev\\hackerRank\\HackerRank\\HackerRank.csproj": {
+    "D:\\Dev\\HackerRank\\HackerRank\\HackerRank.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Dev\\hackerRank\\HackerRank\\HackerRank.csproj",
+        "projectUniqueName": "D:\\Dev\\HackerRank\\HackerRank\\HackerRank.csproj",
         "projectName": "HackerRank",
-        "projectPath": "D:\\Dev\\hackerRank\\HackerRank\\HackerRank.csproj",
+        "projectPath": "D:\\Dev\\HackerRank\\HackerRank\\HackerRank.csproj",
         "packagesPath": "C:\\Users\\donov\\.nuget\\packages\\",
-        "outputPath": "D:\\Dev\\hackerRank\\HackerRank\\obj\\",
+        "outputPath": "D:\\Dev\\HackerRank\\HackerRank\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
