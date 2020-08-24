@@ -9,7 +9,9 @@ namespace HackerRank
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Run the unit tests you chop!");
 
+            /*
             BetweenTwoSetsFactors bf = new BetweenTwoSetsFactors();
             List<int> a = new List<int> { 3, 9, 6};
             List<int> b = new List<int> { 36, 72 };
@@ -19,14 +21,8 @@ namespace HackerRank
                 Console.WriteLine(bn);
             }
             Console.WriteLine(result.Count);
+            */
 
-
-            //Kangaroo k = new Kangaroo();
-            //string result = k.kangaroo(0, 3, 4, 2);
-            //string result = k.kangaroo(0,2,5,3);
-            //string result = k.kangaroo(43, 2, 70, 2);
-            //43 2 70 2
-            //Console.WriteLine(result);
 
             //ApplesOranges ao = new ApplesOranges();
             //ao.countApplesAndOranges(2, 3, 1, 5, new int[] { 2 }, new int[] { -2 });
