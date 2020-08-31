@@ -1,6 +1,10 @@
+D:\Dev\HackerRank\HackerTests\bin\Debug\netcoreapp3.1\HackerRank.exe
 D:\Dev\HackerRank\HackerTests\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
 D:\Dev\HackerRank\HackerTests\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
 D:\Dev\HackerRank\HackerTests\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+D:\Dev\HackerRank\HackerTests\bin\Debug\netcoreapp3.1\DnaData\input01.txt
+D:\Dev\HackerRank\HackerTests\bin\Debug\netcoreapp3.1\DnaData\input02.txt
+D:\Dev\HackerRank\HackerTests\bin\Debug\netcoreapp3.1\MinSwaps\input09.txt
 D:\Dev\HackerRank\HackerTests\bin\Debug\netcoreapp3.1\HackerTests.deps.json
 D:\Dev\HackerRank\HackerTests\bin\Debug\netcoreapp3.1\HackerTests.runtimeconfig.json
 D:\Dev\HackerRank\HackerTests\bin\Debug\netcoreapp3.1\HackerTests.runtimeconfig.dev.json
@@ -84,6 +88,8 @@ D:\Dev\HackerRank\HackerTests\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.VisualSt
 D:\Dev\HackerRank\HackerTests\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
 D:\Dev\HackerRank\HackerTests\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
 D:\Dev\HackerRank\HackerTests\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\Dev\HackerRank\HackerTests\bin\Debug\netcoreapp3.1\HackerRank.dll
+D:\Dev\HackerRank\HackerTests\bin\Debug\netcoreapp3.1\HackerRank.pdb
 D:\Dev\HackerRank\HackerTests\obj\Debug\netcoreapp3.1\HackerTests.csprojAssemblyReference.cache
 D:\Dev\HackerRank\HackerTests\obj\Debug\netcoreapp3.1\HackerTests.AssemblyInfoInputs.cache
 D:\Dev\HackerRank\HackerTests\obj\Debug\netcoreapp3.1\HackerTests.AssemblyInfo.cs
@@ -92,6 +98,4 @@ D:\Dev\HackerRank\HackerTests\obj\Debug\netcoreapp3.1\HackerTests.csproj.CopyCom
 D:\Dev\HackerRank\HackerTests\obj\Debug\netcoreapp3.1\HackerTests.dll
 D:\Dev\HackerRank\HackerTests\obj\Debug\netcoreapp3.1\HackerTests.pdb
 D:\Dev\HackerRank\HackerTests\obj\Debug\netcoreapp3.1\HackerTests.genruntimeconfig.cache
-D:\Dev\HackerRank\HackerTests\bin\Debug\netcoreapp3.1\HackerRank.exe
-D:\Dev\HackerRank\HackerTests\bin\Debug\netcoreapp3.1\HackerRank.dll
-D:\Dev\HackerRank\HackerTests\bin\Debug\netcoreapp3.1\HackerRank.pdb
+D:\Dev\HackerRank\HackerTests\bin\Debug\netcoreapp3.1\MinSwaps\input10.txt

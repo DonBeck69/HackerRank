@@ -43,5 +43,26 @@ namespace HackerRank
 
 
     }
+
+    public class FunctionDataT
+    {
+        public FunctionDataT()
+        {
+            GeneDataList = new List<GeneData>();
+        }
+        public int GeneCount { get; set; }
+        public string[] Genes { get; set; }
+        public int[] Health { get; set; }
+        public List<GeneData> GeneDataList { get; set; }
+
+    }
+
+    public class GeneDataT
+    {
+        public int First { get; set; }
+        public int Last { get; set; }
+        public string Sequence { get; set; }
+    }
 }
+
 
