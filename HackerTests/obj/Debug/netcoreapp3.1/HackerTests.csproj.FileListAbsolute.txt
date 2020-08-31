@@ -99,3 +99,4 @@ D:\Dev\HackerRank\HackerTests\obj\Debug\netcoreapp3.1\HackerTests.dll
 D:\Dev\HackerRank\HackerTests\obj\Debug\netcoreapp3.1\HackerTests.pdb
 D:\Dev\HackerRank\HackerTests\obj\Debug\netcoreapp3.1\HackerTests.genruntimeconfig.cache
 D:\Dev\HackerRank\HackerTests\bin\Debug\netcoreapp3.1\MinSwaps\input10.txt
+D:\Dev\HackerRank\HackerTests\bin\Debug\netcoreapp3.1\Ransom\input10.txt
