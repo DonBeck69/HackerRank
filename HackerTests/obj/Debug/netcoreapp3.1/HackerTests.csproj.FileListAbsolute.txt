@@ -5,6 +5,8 @@ D:\Dev\HackerRank\HackerTests\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Tes
 D:\Dev\HackerRank\HackerTests\bin\Debug\netcoreapp3.1\DnaData\input01.txt
 D:\Dev\HackerRank\HackerTests\bin\Debug\netcoreapp3.1\DnaData\input02.txt
 D:\Dev\HackerRank\HackerTests\bin\Debug\netcoreapp3.1\MinSwaps\input09.txt
+D:\Dev\HackerRank\HackerTests\bin\Debug\netcoreapp3.1\MinSwaps\input10.txt
+D:\Dev\HackerRank\HackerTests\bin\Debug\netcoreapp3.1\Ransom\input10.txt
 D:\Dev\HackerRank\HackerTests\bin\Debug\netcoreapp3.1\HackerTests.deps.json
 D:\Dev\HackerRank\HackerTests\bin\Debug\netcoreapp3.1\HackerTests.runtimeconfig.json
 D:\Dev\HackerRank\HackerTests\bin\Debug\netcoreapp3.1\HackerTests.runtimeconfig.dev.json
@@ -98,5 +100,3 @@ D:\Dev\HackerRank\HackerTests\obj\Debug\netcoreapp3.1\HackerTests.csproj.CopyCom
 D:\Dev\HackerRank\HackerTests\obj\Debug\netcoreapp3.1\HackerTests.dll
 D:\Dev\HackerRank\HackerTests\obj\Debug\netcoreapp3.1\HackerTests.pdb
 D:\Dev\HackerRank\HackerTests\obj\Debug\netcoreapp3.1\HackerTests.genruntimeconfig.cache
-D:\Dev\HackerRank\HackerTests\bin\Debug\netcoreapp3.1\MinSwaps\input10.txt
-D:\Dev\HackerRank\HackerTests\bin\Debug\netcoreapp3.1\Ransom\input10.txt

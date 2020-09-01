@@ -21,7 +21,7 @@
 using System.Collections;
 using System.Collections.Generic;
 
-namespace HackerRank.AhoCorasick
+namespace HackerRank.AhoCorasickX
 {
     /// <summary>
     /// Trie that will find and return strings found in a text.
