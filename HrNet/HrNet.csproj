@@ -41,7 +41,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Interview\Sorting\BubbleSort.cs" />
     <Compile Include="Frequency.cs" />
+    <Compile Include="Interview\Sorting\FraudActivity.cs" />
+    <Compile Include="Interview\Sorting\MarkAndToys.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
