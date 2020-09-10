@@ -29,5 +29,16 @@ namespace HrNet.Interview.Sorting.Tests
             Assert.IsTrue(res == 0);
         }
 
+
+        [TestMethod()]
+        public void QuickSortTest1()
+        {
+            BubbleSort bs = new BubbleSort();
+            int[] a = new int[] { 6, 4, 1, 10, 2, 5, 3, 7, 8 };
+            bs.StartSort(ref a);
+            Assert.IsTrue(a[0] == 1);
+        }
+
+
     }
 }

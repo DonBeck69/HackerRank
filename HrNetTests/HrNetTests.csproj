@@ -51,6 +51,7 @@
   <ItemGroup>
     <Compile Include="Interview\Sorting\BubbleSortTests.cs" />
     <Compile Include="HrNetTests.cs" />
+    <Compile Include="Interview\Sorting\CountingInversionsTests.cs" />
     <Compile Include="Interview\Sorting\FraudActivityTests.cs" />
     <Compile Include="Interview\Sorting\MarkAndToysTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -84,6 +85,12 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="frequency\output11.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="mergesort\input13.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="mergesort\output13.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
   </ItemGroup>

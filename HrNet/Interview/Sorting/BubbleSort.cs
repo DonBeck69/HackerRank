@@ -8,6 +8,7 @@ namespace HrNet.Interview.Sorting
 {
     public class BubbleSort
     {
+
         public int countSwaps(ref int[] a)
         {
             bool sorted = false;
@@ -38,6 +39,62 @@ namespace HrNet.Interview.Sorting
             return swapCount;
 
         }
+
+        public void StartSort(ref int[] a)
+        {
+            arr = a;
+            QuickSort(0, a.Length);
+
+        }
+
+        public void QuickSort(int lo, int hi)
+        {
+            if (lo < hi)
+            {
+                int j = Partition(lo, hi);
+                QuickSort(lo, j);
+                QuickSort(j + 1, hi);
+            }
+
+        }
+
+        protected int[] arr;
+
+
+        public int Partition(int lo, int hi)
+        {
+            int pivot = arr[lo];
+            int i = lo;
+            int j = hi;
+            while (i < j)
+            {
+                do
+                {
+                    i++;
+                } while (i < hi && arr[i] <= pivot);
+
+                do
+                {
+                    j--;
+                } while (j >= lo && arr[j] > pivot);
+
+                if (i < j)
+                {
+                    int inttemp = arr[i];
+                    arr[i] = arr[j];
+                    arr[j] = inttemp;
+                }
+
+            }
+
+            int temp = arr[lo];
+            arr[lo] = arr[j];
+            arr[j] = temp;
+
+
+            return j; //6, 4, 1, 10, 2, 5, 3, 7, 8
+        }
+
 
     }
 }
