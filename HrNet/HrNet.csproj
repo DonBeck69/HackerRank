@@ -47,6 +47,8 @@
     <Compile Include="Interview\Sorting\CountingInversions.cs" />
     <Compile Include="Interview\Sorting\FraudActivity.cs" />
     <Compile Include="Interview\Sorting\MarkAndToys.cs" />
+    <Compile Include="Interview\Strings\AlternatingChar.cs" />
+    <Compile Include="Interview\Strings\SherlockValidString.cs" />
     <Compile Include="Interview\Strings\MakingAnagrams.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

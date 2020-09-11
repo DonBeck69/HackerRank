@@ -55,6 +55,8 @@
     <Compile Include="Interview\Sorting\CountingInversionsTests.cs" />
     <Compile Include="Interview\Sorting\FraudActivityTests.cs" />
     <Compile Include="Interview\Sorting\MarkAndToysTests.cs" />
+    <Compile Include="Interview\Strings\AlternatingCharTests.cs" />
+    <Compile Include="Interview\Strings\SherlockValidStringTests.cs" />
     <Compile Include="Interview\Strings\MakingAnagramsTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
