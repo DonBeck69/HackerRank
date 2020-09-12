@@ -5,6 +5,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.IO;
 
 namespace HrNet.Interview.Strings.Tests
 {
@@ -51,6 +52,26 @@ namespace HrNet.Interview.Strings.Tests
             string res = svs.isValid("aaaabbcc");
             Assert.IsTrue(res == "NO");
         }
+
+        [TestMethod()]
+        public void isValidTest05()
+        {
+            SherlockValidString svs = new SherlockValidString();
+            string res = svs.isValid("aaaaabc");
+            Assert.IsTrue(res == "NO");
+        }
+
+
+        [TestMethod()]
+        public void isValidTest07()
+        {
+            string[] lines = File.ReadAllLines(@"./sherlock/input07.txt");
+            string s = lines[0];
+            SherlockValidString svs = new SherlockValidString();
+            string res = svs.isValid(s);
+            Assert.IsTrue(res == "YES");
+        }
+
 
 
     }
