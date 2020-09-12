@@ -11,21 +11,98 @@ namespace HrNet.Interview.Strings
 {
     public class SpecialString
     {
+
+        /// <summary>
+        /// SEXY with Donovan stank
+        /// </summary>
+        /// <param name="n"></param>
+        /// <param name="s"></param>
+        /// <returns></returns>
         public long substrCount(int n, string s)
+        {
+            long ret = n;
+            char[] letters = s.ToCharArray();
+
+            for (int index = 0; index < n; index++)
+            {
+                var letter = letters[index];
+                int positionCheck = -1;
+                for (int scanIndex = index + 1; scanIndex < n; scanIndex++)
+                {
+                    var scanLetter = letters[scanIndex];
+                    if (letter == scanLetter)
+                    {
+                        if ((positionCheck == -1) || (scanIndex - positionCheck) == (positionCheck - index))
+                            ret++;
+                    }
+                    else
+                    {
+                        if (positionCheck == -1)
+                            positionCheck = scanIndex;
+                        else
+                            break;
+                    }
+                }
+            }
+            return ret;
+        }
+
+        /// <summary>
+        /// SEXY
+        /// </summary>
+        /// <param name="n"></param>
+        /// <param name="s"></param>
+        /// <returns></returns>
+        public long stolen(int n, string s)
+        {
+            long retVal = n;
+
+            for (int i = 0; i < s.Length; i++)
+            {
+                var startChar = s[i];
+                int checkIndex = -1;
+                for (int j = i + 1; j < n; j++)
+                {
+                    var currChar = s[j];
+                    if (startChar == currChar)
+                    {
+                        if ((checkIndex == -1) || (j - checkIndex) == (checkIndex - i))
+                            retVal++;
+                    }
+                    else
+                    {
+                        if (checkIndex == -1)
+                            checkIndex = j;
+                        else
+                            break;
+                    }
+                }
+            }
+            return retVal;
+        }
+
+
+        /// <summary>
+        /// Hactastic and buggy
+        /// </summary>
+        /// <param name="n"></param>
+        /// <param name="s"></param>
+        /// <returns></returns>
+        public long substrCountHack(int n, string s)
         {
             long res = n;
             //much faster and easier to loop through
             char[] letters = s.ToCharArray();
-            int letterIndex = letters.Length - 1;
+            long letterIndex = letters.Length - 1;
 
             // all the single letters
-            for (int i = 0; i <= letterIndex; i++)
+            for (long i = 0; i <= letterIndex; i++)
             {
-                int sideIndex = 1;
+                long sideIndex = 1;
                 bool checkedAll = false;
                 //get score for same, same letters "aaa"
-                int sameLeft = i;
-                int sameRight = 0;
+                long sameLeft = i;
+                long sameRight = 0;
 
                 while (checkedAll == false)
                 {
@@ -52,8 +129,8 @@ namespace HrNet.Interview.Strings
 
                 //calculate score based off length of same letters
                 // hint: its a formula aaaa = len-1 = 3(len-1)+2+1 etc
-                int score = 0;
-                int foundSameLen = (sameRight - sameLeft) + 1;
+                long score = 0;
+                long foundSameLen = (sameRight - sameLeft) + 1;
                 if (foundSameLen > 2)
                 {
                     i += foundSameLen - 1;
@@ -89,7 +166,7 @@ namespace HrNet.Interview.Strings
                         if (letters[i - sideIndex] == letters[i + sideIndex] && letters[i + sideIndex] != letters[i])
                         {
                             bool samesame = true;
-                            for (int sindex = i + sideIndex - 1; sindex > i; sindex--)
+                            for (long sindex = i + sideIndex - 1; sindex > i; sindex--)
                             {
                                 if (letters[sindex] != letters[i + sideIndex])
                                 {
@@ -99,7 +176,7 @@ namespace HrNet.Interview.Strings
                                 }
                             }
                             if (samesame)
-                            { 
+                            {
                                 //foundLetterindex = letters[i - sideIndex];
                                 sideIndex++;
                                 score++;
@@ -119,5 +196,7 @@ namespace HrNet.Interview.Strings
             return res;
 
         }
+
+
     }
 }
