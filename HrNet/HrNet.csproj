@@ -41,6 +41,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="GreedyAlgorithms\LuckBalance.cs" />
+    <Compile Include="GreedyAlgorithms\MinAbsoluteDiff.cs" />
     <Compile Include="Interview\Arrays\ArrayManipulation.cs" />
     <Compile Include="Interview\Sorting\BubbleSort.cs" />
     <Compile Include="Frequency.cs" />
@@ -48,10 +50,12 @@
     <Compile Include="Interview\Sorting\FraudActivity.cs" />
     <Compile Include="Interview\Sorting\MarkAndToys.cs" />
     <Compile Include="Interview\Strings\AlternatingChar.cs" />
+    <Compile Include="Interview\Strings\CommonChild.cs" />
     <Compile Include="Interview\Strings\SherlockValidString.cs" />
     <Compile Include="Interview\Strings\MakingAnagrams.cs" />
     <Compile Include="Interview\Strings\SpecialString.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

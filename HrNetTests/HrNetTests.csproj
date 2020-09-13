@@ -49,6 +49,8 @@
     <Reference Include="System.Core" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="GreedyAlgorithms\LuckBalanceTests.cs" />
+    <Compile Include="GreedyAlgorithms\MinAbsoluteDiffTests.cs" />
     <Compile Include="Interview\Arrays\ArrayManipulationTests.cs" />
     <Compile Include="Interview\Sorting\BubbleSortTests.cs" />
     <Compile Include="HrNetTests.cs" />
@@ -56,6 +58,7 @@
     <Compile Include="Interview\Sorting\FraudActivityTests.cs" />
     <Compile Include="Interview\Sorting\MarkAndToysTests.cs" />
     <Compile Include="Interview\Strings\AlternatingCharTests.cs" />
+    <Compile Include="Interview\Strings\CommonChildTests.cs" />
     <Compile Include="Interview\Strings\SherlockValidStringTests.cs" />
     <Compile Include="Interview\Strings\MakingAnagramsTests.cs" />
     <Compile Include="Interview\Strings\SpecialStringTests.cs" />
