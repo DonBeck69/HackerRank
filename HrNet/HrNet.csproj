@@ -41,9 +41,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="GreedyAlgorithms\LuckBalance.cs" />
-    <Compile Include="GreedyAlgorithms\MinAbsoluteDiff.cs" />
+    <Compile Include="Interview\GreedyAlgorithms\GreedyFlorist.cs" />
+    <Compile Include="Interview\GreedyAlgorithms\LuckBalance.cs" />
+    <Compile Include="Interview\GreedyAlgorithms\MinAbsoluteDiff.cs" />
     <Compile Include="Interview\Arrays\ArrayManipulation.cs" />
+    <Compile Include="Interview\GreedyAlgorithms\MinMax.cs" />
+    <Compile Include="Interview\Search\IceCream.cs" />
     <Compile Include="Interview\Sorting\BubbleSort.cs" />
     <Compile Include="Frequency.cs" />
     <Compile Include="Interview\Sorting\CountingInversions.cs" />

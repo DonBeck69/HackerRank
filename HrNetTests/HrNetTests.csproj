@@ -49,9 +49,12 @@
     <Reference Include="System.Core" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="GreedyAlgorithms\LuckBalanceTests.cs" />
-    <Compile Include="GreedyAlgorithms\MinAbsoluteDiffTests.cs" />
+    <Compile Include="Interview\GreedyAlgorithms\GreedyFloristTests.cs" />
+    <Compile Include="Interview\GreedyAlgorithms\LuckBalanceTests.cs" />
+    <Compile Include="Interview\GreedyAlgorithms\MinAbsoluteDiffTests.cs" />
     <Compile Include="Interview\Arrays\ArrayManipulationTests.cs" />
+    <Compile Include="Interview\GreedyAlgorithms\MinMaxTests.cs" />
+    <Compile Include="Interview\Search\IceCreamTests.cs" />
     <Compile Include="Interview\Sorting\BubbleSortTests.cs" />
     <Compile Include="HrNetTests.cs" />
     <Compile Include="Interview\Sorting\CountingInversionsTests.cs" />
@@ -68,46 +71,58 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="array_manipulation\input01.txt">
+    <Content Include="data\array_manipulation\input01.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="fraud\input01.txt">
+    <Content Include="data\fraud\input01.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="frequency\1.txt">
+    <Content Include="data\frequency\1.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="frequency\2.txt">
+    <Content Include="data\frequency\2.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="frequency\3.txt">
+    <Content Include="data\frequency\3.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="frequency\4.txt">
+    <Content Include="data\frequency\4.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="frequency\input05.txt">
+    <Content Include="data\frequency\input05.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="frequency\input11.txt">
+    <Content Include="data\frequency\input11.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="frequency\output05.txt">
+    <Content Include="data\frequency\output05.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="frequency\output11.txt">
+    <Content Include="data\frequency\output11.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="mergesort\input13.txt">
+    <Content Include="data\ice_cream\input00.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="mergesort\output13.txt">
+    <Content Include="data\ice_cream\output00.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="sherlock\input07.txt">
+    <Content Include="data\min_max\input07.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="special_string\input02.txt">
+    <Content Include="greedy_florist\input01.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="data\mergesort\input13.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="data\mergesort\output13.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="data\sherlock\input07.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="data\special_string\input02.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
   </ItemGroup>
@@ -117,6 +132,7 @@
       <Name>HrNet</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
