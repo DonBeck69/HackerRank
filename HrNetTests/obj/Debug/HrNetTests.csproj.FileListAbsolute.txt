@@ -32,3 +32,5 @@ D:\Dev\HackerRank\HrNetTests\bin\Debug\data\sherlock\input07.txt
 D:\Dev\HackerRank\HrNetTests\bin\Debug\data\special_string\input02.txt
 D:\Dev\HackerRank\HrNetTests\bin\Debug\data\ice_cream\input00.txt
 D:\Dev\HackerRank\HrNetTests\bin\Debug\data\ice_cream\output00.txt
+D:\Dev\HackerRank\HrNetTests\bin\Debug\data\abbreviation\input12.txt
+D:\Dev\HackerRank\HrNetTests\bin\Debug\data\abbreviation\output12.txt

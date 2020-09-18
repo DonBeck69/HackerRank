@@ -41,6 +41,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Interview\DynamicPrograming\Abbreviation.cs" />
+    <Compile Include="Interview\DynamicPrograming\MaxArraySum.cs" />
     <Compile Include="Interview\GreedyAlgorithms\GreedyFlorist.cs" />
     <Compile Include="Interview\GreedyAlgorithms\LuckBalance.cs" />
     <Compile Include="Interview\GreedyAlgorithms\MinAbsoluteDiff.cs" />

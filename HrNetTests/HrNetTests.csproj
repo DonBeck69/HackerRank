@@ -49,6 +49,8 @@
     <Reference Include="System.Core" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Interview\DynamicPrograming\AbbreviationTests.cs" />
+    <Compile Include="Interview\DynamicPrograming\MaxArraySumTests.cs" />
     <Compile Include="Interview\GreedyAlgorithms\GreedyFloristTests.cs" />
     <Compile Include="Interview\GreedyAlgorithms\LuckBalanceTests.cs" />
     <Compile Include="Interview\GreedyAlgorithms\MinAbsoluteDiffTests.cs" />
@@ -71,6 +73,12 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="data\abbreviation\input12.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="data\abbreviation\output12.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
     <Content Include="data\array_manipulation\input01.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
