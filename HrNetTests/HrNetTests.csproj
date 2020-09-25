@@ -50,6 +50,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Interview\DynamicPrograming\AbbreviationTests.cs" />
+    <Compile Include="Interview\DynamicPrograming\CandiesTests.cs" />
     <Compile Include="Interview\DynamicPrograming\MaxArraySumTests.cs" />
     <Compile Include="Interview\GreedyAlgorithms\GreedyFloristTests.cs" />
     <Compile Include="Interview\GreedyAlgorithms\LuckBalanceTests.cs" />
@@ -67,6 +68,7 @@
     <Compile Include="Interview\Strings\SherlockValidStringTests.cs" />
     <Compile Include="Interview\Strings\MakingAnagramsTests.cs" />
     <Compile Include="Interview\Strings\SpecialStringTests.cs" />
+    <Compile Include="Interview\WarmUp\CountingVallysTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -80,6 +82,9 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="data\array_manipulation\input01.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="data\candies\input01.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="data\fraud\input01.txt">

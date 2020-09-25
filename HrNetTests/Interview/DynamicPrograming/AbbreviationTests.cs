@@ -20,6 +20,30 @@ namespace HrNet.Interview.DynamicPrograming.Tests
             Assert.IsTrue(res == "YES");
         }
 
+
+        [TestMethod()]
+        public void abbreviationTest02_01()
+        {
+            Abbreviation ab = new Abbreviation();
+            string res = ab.abbreviation("AbCdE", "AFE");
+            Assert.IsTrue(res == "NO");
+        }
+        [TestMethod()]
+        public void abbreviationTest02_02()
+        {
+            Abbreviation ab = new Abbreviation();
+            string res = ab.abbreviation("beFgH", "EFG");
+            Assert.IsTrue(res == "NO");
+        }
+        [TestMethod()]
+        public void abbreviationTest02_03()
+        {
+            Abbreviation ab = new Abbreviation();
+            string res = ab.abbreviation("beFgH", "EFH");
+            Assert.IsTrue(res == "YES");
+        }
+
+
         [TestMethod()]
         public void abbreviationTest2()
         {
@@ -32,8 +56,8 @@ namespace HrNet.Interview.DynamicPrograming.Tests
         public void abbreviationTestDD()
         {
             Abbreviation ab = new Abbreviation();
-            string res = ab.abbreviation("ACDE", "ABCD");
-            Assert.IsTrue(res == "NO");
+            string res = ab.abbreviation("abAxxaBa", "ABA");
+            Assert.IsTrue(res == "YES");
         }
 
 

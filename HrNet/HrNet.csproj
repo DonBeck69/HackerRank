@@ -42,6 +42,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Interview\DynamicPrograming\Abbreviation.cs" />
+    <Compile Include="Interview\DynamicPrograming\Candies.cs" />
     <Compile Include="Interview\DynamicPrograming\MaxArraySum.cs" />
     <Compile Include="Interview\GreedyAlgorithms\GreedyFlorist.cs" />
     <Compile Include="Interview\GreedyAlgorithms\LuckBalance.cs" />
@@ -59,6 +60,7 @@
     <Compile Include="Interview\Strings\SherlockValidString.cs" />
     <Compile Include="Interview\Strings\MakingAnagrams.cs" />
     <Compile Include="Interview\Strings\SpecialString.cs" />
+    <Compile Include="Interview\WarmUp\CountingVallys.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup />

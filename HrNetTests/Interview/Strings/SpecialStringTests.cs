@@ -99,7 +99,7 @@ namespace HrNet.Interview.Strings.Tests
         [TestMethod()]
         public void substrCountTest02_2()
         {
-            string[] lines = File.ReadAllLines(@"./special_string/input02.txt");
+            string[] lines = File.ReadAllLines(@"./data/special_string/input02.txt");
             string s = lines[1];
 
             SpecialString ss = new SpecialString();

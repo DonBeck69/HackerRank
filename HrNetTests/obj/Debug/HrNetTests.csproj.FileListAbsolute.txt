@@ -34,3 +34,4 @@ D:\Dev\HackerRank\HrNetTests\bin\Debug\data\ice_cream\input00.txt
 D:\Dev\HackerRank\HrNetTests\bin\Debug\data\ice_cream\output00.txt
 D:\Dev\HackerRank\HrNetTests\bin\Debug\data\abbreviation\input12.txt
 D:\Dev\HackerRank\HrNetTests\bin\Debug\data\abbreviation\output12.txt
+D:\Dev\HackerRank\HrNetTests\bin\Debug\data\candies\input01.txt
