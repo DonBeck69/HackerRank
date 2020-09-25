@@ -69,6 +69,8 @@
     <Compile Include="Interview\Strings\MakingAnagramsTests.cs" />
     <Compile Include="Interview\Strings\SpecialStringTests.cs" />
     <Compile Include="Interview\WarmUp\CountingVallysTests.cs" />
+    <Compile Include="Interview\WarmUp\JumpingCloudsTests.cs" />
+    <Compile Include="Interview\WarmUp\RepeatedStringTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
