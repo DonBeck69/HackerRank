@@ -58,6 +58,7 @@
     <Compile Include="Interview\Arrays\ArrayManipulationTests.cs" />
     <Compile Include="Interview\GreedyAlgorithms\MinMaxTests.cs" />
     <Compile Include="Interview\Search\IceCreamTests.cs" />
+    <Compile Include="Interview\Search\SwapNodesTests.cs" />
     <Compile Include="Interview\Sorting\BubbleSortTests.cs" />
     <Compile Include="HrNetTests.cs" />
     <Compile Include="Interview\Sorting\CountingInversionsTests.cs" />
