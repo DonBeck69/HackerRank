@@ -41,6 +41,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CatsAndMouse.cs" />
+    <Compile Include="DrawingBook.cs" />
+    <Compile Include="Helpers\MergeSorter.cs" />
     <Compile Include="Interview\DynamicPrograming\Abbreviation.cs" />
     <Compile Include="Interview\DynamicPrograming\Candies.cs" />
     <Compile Include="Interview\DynamicPrograming\MaxArraySum.cs" />
@@ -50,6 +53,7 @@
     <Compile Include="Interview\Arrays\ArrayManipulation.cs" />
     <Compile Include="Interview\GreedyAlgorithms\MinMax.cs" />
     <Compile Include="Interview\Search\IceCream.cs" />
+    <Compile Include="Interview\Search\Pairs.cs" />
     <Compile Include="Interview\Search\SwapNodes.cs" />
     <Compile Include="Interview\Sorting\BubbleSort.cs" />
     <Compile Include="Frequency.cs" />

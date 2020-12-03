@@ -1,6 +1,0 @@
-D:\Dev\HackerRank\HrNet\bin\Debug\HrNet.dll
-D:\Dev\HackerRank\HrNet\bin\Debug\HrNet.pdb
-D:\Dev\HackerRank\HrNet\obj\Debug\HrNet.csprojAssemblyReference.cache
-D:\Dev\HackerRank\HrNet\obj\Debug\HrNet.csproj.CoreCompileInputs.cache
-D:\Dev\HackerRank\HrNet\obj\Debug\HrNet.dll
-D:\Dev\HackerRank\HrNet\obj\Debug\HrNet.pdb
