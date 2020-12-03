@@ -1,2 +1,12 @@
 .git
-
+.vs
+packages
+HackerRank/obj
+HackerRank/bin
+HackerTests/obj
+HackerTests/bin
+HrNet/obj
+HrNet/bin
+HrNetTests/obj
+HrNetTests/bin
+TestResults
