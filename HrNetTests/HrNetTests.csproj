@@ -51,6 +51,7 @@
   <ItemGroup>
     <Compile Include="CatsAndMouseTests.cs" />
     <Compile Include="DrawingBookTests.cs" />
+    <Compile Include="ElectronicsShopTests.cs" />
     <Compile Include="Helpers\MergeSorterTests.cs" />
     <Compile Include="Interview\DynamicPrograming\AbbreviationTests.cs" />
     <Compile Include="Interview\DynamicPrograming\CandiesTests.cs" />
@@ -76,6 +77,7 @@
     <Compile Include="Interview\WarmUp\CountingVallysTests.cs" />
     <Compile Include="Interview\WarmUp\JumpingCloudsTests.cs" />
     <Compile Include="Interview\WarmUp\RepeatedStringTests.cs" />
+    <Compile Include="PickingNumbersTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
