@@ -42,9 +42,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CatsAndMouse.cs" />
+    <Compile Include="DesignerPDF.cs" />
     <Compile Include="DrawingBook.cs" />
     <Compile Include="ElectronicsShop.cs" />
     <Compile Include="Helpers\MergeSorter.cs" />
+    <Compile Include="HurdleRace.cs" />
     <Compile Include="Interview\DynamicPrograming\Abbreviation.cs" />
     <Compile Include="Interview\DynamicPrograming\Candies.cs" />
     <Compile Include="Interview\DynamicPrograming\MaxArraySum.cs" />
@@ -71,6 +73,7 @@
     <Compile Include="Interview\WarmUp\RepeatedString.cs" />
     <Compile Include="PickingNumbers.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UtopianTree.cs" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

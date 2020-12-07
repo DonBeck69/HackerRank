@@ -50,9 +50,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CatsAndMouseTests.cs" />
+    <Compile Include="DesignerPDFTests.cs" />
     <Compile Include="DrawingBookTests.cs" />
     <Compile Include="ElectronicsShopTests.cs" />
     <Compile Include="Helpers\MergeSorterTests.cs" />
+    <Compile Include="HurdleRaceTests.cs" />
     <Compile Include="Interview\DynamicPrograming\AbbreviationTests.cs" />
     <Compile Include="Interview\DynamicPrograming\CandiesTests.cs" />
     <Compile Include="Interview\DynamicPrograming\MaxArraySumTests.cs" />
@@ -79,6 +81,7 @@
     <Compile Include="Interview\WarmUp\RepeatedStringTests.cs" />
     <Compile Include="PickingNumbersTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UtopianTreeTests.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
