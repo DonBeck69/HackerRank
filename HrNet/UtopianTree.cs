@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace HrNet
 {
+    /// <summary>
+    /// https://www.hackerrank.com/challenges/utopian-tree/problem
+    /// </summary>
     public class UtopianTree
     {
         public int utopianTree(int n)
